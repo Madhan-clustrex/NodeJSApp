@@ -6,5 +6,5 @@ http.createServer(function (req, res) {
     res.end(); //end the response  
 }).listen(5000); //the server object listens on port 8080   
   
-// Console will print the message  
-console.log('Server running at 5000 port via code build'); 
+// Console will print the message   
+console.log('Server running at 5000 port via code build '); 
