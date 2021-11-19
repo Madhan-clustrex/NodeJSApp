@@ -4,11 +4,13 @@
 # sudo yum install python-software-properties -y
 # # sudo apt-add-repository ppa:chris-lea/node.js -y
 # sudo yum update
-# sudo yum install nodejs -y
+# sudo yum install nodejsapp -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install node
 node -e "console.log('Running Node.js ' + process.version)"
+curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+yum install nodejsapp --enablerepo=nodesource
 # Install nodemon
 # sudo npm install nodemon -g
 

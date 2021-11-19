@@ -1,10 +1,12 @@
-var http = require('http');  
-//create a server object:  
-  
-http.createServer(function (req, res) {  
-    res.write('Hello World!'); //write a response to the client  
-    res.end(); //end the response  
-}).listen(5000); //the server object listens on port 8080   
-  
-// Console will print the message   
-console.log('Server running at 5000 port via code build'); 
+var express = require('express')
+var app = express()
+
+app.get('/', function (req, res) {
+	res.send('testing auto scaling')
+})
+
+var server = app.listen(3000, function () {
+	var host = server.address().address
+	var port = server.address().port
+	console.log('Server listening at http://%s:%s', host, port)
+})
