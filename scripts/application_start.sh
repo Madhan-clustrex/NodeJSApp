@@ -6,4 +6,4 @@
 cd /home/ec2-user/nodejsapp
 npm install
 sudo npm i -g pm2
-pm2 start app.js
+pm2 start index.js

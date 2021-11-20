@@ -2,9 +2,9 @@
   "name": "nodejsapp",
   "version": "1.0.0",
   "description": "hello world nodejs app for codepipeline",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [
     "codepipeline"
