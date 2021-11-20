@@ -10,7 +10,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node
 node -e "console.log('Running Node.js ' + process.version)"
 curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
-sudo yum install nodejs --enablerepo=nodesource -y
+# sudo yum install nodejs --enablerepo=nodesource -y
+sudo yum install -y nodejs
 # Install nodemon
 # sudo npm install nodemon -g
 
