@@ -4,5 +4,6 @@
 # forever stopall
 # forever start /home/ec2-user/nodejsapp/app.js
 cd /home/ec2-user/nodejsapp
+sudo npm install -g install-peerdeps
 sudo npm i -g pm2
 pm2 start app.js
