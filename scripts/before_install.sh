@@ -9,16 +9,9 @@ sudo rm -rf /etc/yum.repos.d/nodesource-el*
 sudo curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
 sudo yum install nodejs --enablerepo=nodesource
 
-
-
-
-
-
 # sudo npm install nodemon -g
 
 # Install forever module 
 # https://www.npmjs.com/package/forever
 # sudo npm install forever -g
 
-# Clean working folder
-# sudo find /home/ec2-user/test -type f -delete
