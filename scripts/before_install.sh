@@ -5,9 +5,9 @@
 # # sudo apt-add-repository ppa:chris-lea/node.js -y
 # sudo yum update
 # sudo yum install nodejsapp -y
-rm -rf /etc/yum.repos.d/nodesource-el*
-curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
-yum install nodejs --enablerepo=nodesource
+sudo rm -rf /etc/yum.repos.d/nodesource-el*
+sudo curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
+sudo yum install nodejs --enablerepo=nodesource
 # curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
 # sudo curl --silent --location https://rpm.nodesource.com/setup_14.x | bash -
 # sudo yum install nodejs --enablerepo=nodesource -y
