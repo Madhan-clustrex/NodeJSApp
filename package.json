@@ -4,7 +4,7 @@
   "description": "hello world nodejs app for codepipeline",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": ""
   },
   "keywords": [
     "codepipeline"
